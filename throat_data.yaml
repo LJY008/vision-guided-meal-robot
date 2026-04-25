@@ -1,6 +1,0 @@
-names:
-  0: throat
-nc: 1  # 根据你的类别数量调整
-train: ../throat_dataset1/images/train
-val: ../throat_dataset1/images/val
-
