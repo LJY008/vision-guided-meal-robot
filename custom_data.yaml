@@ -1,0 +1,7 @@
+names:
+  0: red
+  1: black
+nc: 2  # 根据你的类别数量调整
+train: ../dataset/images/train
+val: ../dataset/images/val
+

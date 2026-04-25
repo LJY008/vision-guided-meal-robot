@@ -1,0 +1,7 @@
+names:
+  0: apple
+  1: pineapple
+nc: 2  # 根据你的类别数量调整
+train: ../food_dataset1/images/train
+val: ../food_dataset1/images/val
+

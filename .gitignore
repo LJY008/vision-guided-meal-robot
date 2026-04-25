@@ -1,0 +1,54 @@
+# IDE / 编辑器缓存
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.vs/
+.pytest_cache/
+
+# 运行日志
+DianaApiLog.txt
+
+# 实验数据文件
+*.mat
+feeding_times*.csv
+time_displacement_data.csv
+
+# 冗余基础权重
+yolov5s.pt
+yolov5/yolov5m.pt
+
+# YOLOv5 历史训练实验（保留 food_custom_train7）
+yolov5/runs/train/exp*/
+yolov5/runs/train/exp[0-9]*/
+yolov5/runs/train/my_custom_train*/
+yolov5/runs/train/throat_train*/
+yolov5/runs/train/food_custom_train/
+yolov5/runs/train/food_custom_train[1-6]/
+yolov5/runs/detect/
+
+# 旧版/废弃代码
+old_feed/
+old_kalman/
+
+# 原始采集图像（体积大，非必须）
+food_capture/
+food_capture1/
+capture_image/
+
+# 喉部检测相关（不属于喂食主流程）
+throat_1/
+throat_dataset1/
+throat_label1/
+
+# CoppeliaSim 仿真相关
+remoteApi.dll
+sim.py
+simConst.py
+simpleTest.py
+
+# 数据采集 / 训练辅助脚本（可选排除，如不需要保留则取消注释）
+# capture.py
+# collect_data_from_movment.py
+# collect_data_to_csv.py
+# train_pipe.py
